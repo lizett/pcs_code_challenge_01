@@ -75,6 +75,22 @@ body {
 
 }
 
+.img_left {
+ float: left;
+ padding-right: 24px;
+ padding-bottom: 24px;
+}
+
+.img_right {
+ float: right;
+ padding-left: 24px;
+ padding-bottom: 24px;
+}
+
+.list_one {
+  clear:left;
+}
+
 /* finally, the footer stretches across the whole page width in an open, centered sort of way. */
 .footer {
   font-size: .80em;
