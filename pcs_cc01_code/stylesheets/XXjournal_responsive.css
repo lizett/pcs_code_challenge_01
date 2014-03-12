@@ -17,12 +17,10 @@ html h1 {
 body {
   font-size: 1.1em;
   font-family: "Helvetica Neue", Helvetica, Verdana, sans-serif;
+  color: #111111;
   background-color: #f0f0f0
 }
 
-p {
-  color: #111111;
-}
 /* The container sits in the middle of the page and is a fixed width Reference: http://www.w3schools.com/css/css_boxmodel.asp
 */
 
@@ -53,6 +51,17 @@ p {
 
 .validation_badge {
   float: right;
+}
+
+/* Next two rules style the anchor tags that are on the page */
+
+a {
+  color: #111111;
+  text-decoration: none; 
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 /* the next three rules set the appearance of each weekly article, adding more whitespace, etc. */
@@ -91,15 +100,6 @@ p {
 
 .list_one{
   clear:left;
-}
-
-a {
-  color: #111111;
-  text-decoration: none; 
-}
-
-a:hover {
-  text-decoration: underline;
 }
 
 /* finally, the footer stretches across the whole page width in an open, centered sort of way. */
