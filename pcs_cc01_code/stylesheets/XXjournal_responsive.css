@@ -55,8 +55,6 @@ p {
   float: right;
 }
 
-
-
 /* the next three rules set the appearance of each weekly article, adding more whitespace, etc. */
 
 .article {
@@ -70,7 +68,6 @@ p {
   border: 1px solid black;
   color: #FFF;
   background-color: #4DBD33;
-
 }
 
 .article_content {
@@ -78,32 +75,31 @@ p {
   padding: 2%;
   border:1px solid gray;
   background-color: #ffffff;
-
 }
 
 .img_left {
   float: left;
-  margin-right: 23px;
-  margin-bottom: 23px;
+  padding-right: 23px;
+  padding-bottom: 23px;
 }
 
 .img_right {
   float: right;
-  margin-left: 23px;
-  margin-bottom: 23px;
+  padding-left: 23px;
+  padding-bottom: 23px;
 }
 
 .list_one{
   clear:left;
 }
 
-a:hover {
-  text-decoration: underline;
-}
-
 a {
   color: #111111;
   text-decoration: none; 
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 /* finally, the footer stretches across the whole page width in an open, centered sort of way. */
@@ -112,11 +108,7 @@ a {
   min-height: 40px;
   text-align: center;
   margin: 5%;
-
 }
-
-
-        /*     MOBILE      */
 
 @media (max-width: 600px) {
   .validation_badge {
@@ -140,4 +132,4 @@ a {
     background-color: #ebebeb;
   }
 
-}
+} 
