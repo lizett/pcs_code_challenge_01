@@ -83,14 +83,14 @@ p {
 
 .img_left {
   float: left;
-  padding-right: 23px;
-  padding-bottom: 23px;
+  margin-right: 23px;
+  margin-bottom: 23px;
 }
 
 .img_right {
   float: right;
-  padding-left: 23px;
-  padding-bottom: 23px;
+  margin-left: 23px;
+  margin-bottom: 23px;
 }
 
 .list_one{
